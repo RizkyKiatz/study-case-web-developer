@@ -1,0 +1,186 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url("img/close-up-hand-pouring-milk-delicious-coffee-cup.jpg"),linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.5));
+    background-size: 1700px 1300px;
+    background-position-y: -190px;
+    background-position-x: -160px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    align-items: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.menu a:hover{
+    color: grey;
+}
+.login{
+    align-items: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.gambar{
+    width:21px;
+    height:19px;
+    margin:-4px 5px -5px 4px;
+    border-radius: 50%;
+}
+.gambar-2{
+    filter:invert(100%);
+    width:21px;
+    height:19px;
+    margin:-4px 5px;
+}
+.login1{
+    background-color: brown;
+    background-size: 30px;
+    padding: 10px 15px 10px 10px;
+    border-radius: 20px;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.login a:hover{
+    color: grey;
+}
+
+.home{
+    display: flex;
+    flex-direction:column;
+    color:white;
+    float:left;
+    width:400px;
+    padding-left:50px;
+    padding-top: 150px;
+    
+}
+.home h3{
+    color:brown;
+    font-size: 15px;
+    margin-bottom:10px;
+}
+.home h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.home p{
+    font-size: 10px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    width:280px;
+}
+.sosial{
+    display: inline;
+}
+.btn{
+    float:left;
+    margin-top:20px;
+}
+.btn button{
+    border:1px solid white;
+    font-weight: bold;
+    color:rgb(238, 233, 233);
+    padding: 10px 40px ;
+    background-color: transparent;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: brown;
+    border:1px solid brown;
+    color:white;
+    transform:translateY(3px)
+}
+.sosial a{
+   padding:10px 8px 5px 7px;
+   border:1px solid brown;
+   border-radius: 50%;
+}
+
+.sosial img{
+    width:20px;
+    height:20px;
+    margin-top:27px;
+    filter: invert(100%) sepia(100%) saturate(400%) hue-rotate(20deg) brightness(100%) contrast(100%);
+}
+
+.menu-1{
+    display:grid;
+    gap: 10px;
+    width:900px;
+}
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    
+}
+
+.menu-box {
+    background-color: white;
+    margin:10px;
+    width: 200px;
+    height:350px;
+    transition:all 0.3s ease;
+    border:1px solid rgba(1,1,1,0.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.menu-box:hover{
+    box-shadow:rgba(1,1,1,0.5);
+    transform:translateY(-4px);
+}
+.menu-box img{
+    width: 200px;
+    height: 160px;
+}
+
+div .judul{
+    margin-left:20px;
+    color: brown;
+    font-size: 17px;
+    font-weight:bold;
+}   
+
+div .desc{
+    width:160px;
+    margin-left:20px;
+    margin-bottom:45px;
+    color: black;
+    font-size:9px;
+}
+
+div .btn-1{
+    text-decoration:none;
+    color:brown;
+    font-size:15px;
+    box-sizing: border-box;
+    margin-left:20px;
+}
+
+.btn-1:hover{
+    color:grey;
+}
